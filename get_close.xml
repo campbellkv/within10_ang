@@ -1,0 +1,20 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+        <Chain name="chA" chains="A"/>
+        <Chain name="chB" chains="B"/>
+        <Neighborhood name="get_10" selector="chA" distance="10.0" /> 
+    </RESIDUE_SELECTORS>
+    <TASKOPERATIONS>
+    </TASKOPERATIONS>
+    <SIMPLE_METRICS>
+    </SIMPLE_METRICS>
+    <FILTERS>
+    </FILTERS>
+    <MOVERS>
+    </MOVERS>
+    <PROTOCOLS>
+    </PROTOCOLS>
+    <OUTPUT />
+</ROSETTASCRIPTS>
