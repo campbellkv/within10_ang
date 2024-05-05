@@ -18,7 +18,7 @@ print(args.inputs)
 print(files)
 
 os.mkdir('truncated_outputs')
-xml = XmlObjects.create_from_file("/mnt/home/kcamp23/work/scripts/pyrosetta/get_close_residues/get_close.xml");
+xml = XmlObjects.create_from_file("get_close.xml");
 
 def get_within10(pose):
     #select residues within 10 ang of binder, returns bool vector
